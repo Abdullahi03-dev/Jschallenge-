@@ -1,4 +1,4 @@
-import quotes from 'jsquiz1.json';
+import quotes from './jsquiz1.json';
 
 export default function handler(req, res) {
   // Allow requests from any origin
