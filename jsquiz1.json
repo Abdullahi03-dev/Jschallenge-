@@ -1,0 +1,41 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "options": [
+      "Berlin",
+      "Paris",
+      "London",
+      "Rome"
+    ],
+    "correctAnswer": [
+      "Paris"
+    ],
+    "hint": "City of Love"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+      "Earth",
+      "Mars",
+      "Jupiter",
+      "Saturn"
+    ],
+    "correctAnswer": [
+      "Mars"
+    ],
+    "hint": "Rocky planet with reddish appearance"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "options": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Caravaggio"
+    ],
+    "correctAnswer": [
+      "Leonardo da Vinci"
+    ],
+    "hint": "Italian Renaissance artist"
+  }
+]
