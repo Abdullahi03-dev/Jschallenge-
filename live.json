@@ -1,0 +1,402 @@
+[
+  {
+    "question": "What is the output of the following code: `[...'LITERALS'].filter(char => char < 'M').join('')`?",
+    "options": ["LIT", "ITE", "LET", "IRL"],
+    "correctAnswer": ["LIT"]
+  },
+  {
+    "question": "What will the following code output: `console.log(typeof NaN)`?",
+    "options": ["'number'", "'NaN'", "'undefined'", "'object'"],
+    "correctAnswer": ["'number'"]
+  },
+  {
+    "question": "How can you create an immutable object in JavaScript?",
+    "options": ["Object.freeze(obj)", "Object.seal(obj)", "Object.preventExtensions(obj)", "Object.lock(obj)"],
+    "correctAnswer": ["Object.freeze(obj)"]
+  },
+  {
+    "question": "Which of these is NOT a primitive type in JavaScript?",
+    "options": ["Boolean", "Symbol", "Function", "BigInt"],
+    "correctAnswer": ["Function"]
+  },
+  {
+    "question": "What is the time complexity of the `Array.prototype.sort` method?",
+    "options": ["O(n)", "O(n log n)", "O(log n)", "O(n^2)"],
+    "correctAnswer": ["O(n log n)"]
+  },
+  {
+    "question": "What is the output of `console.log([1, 2, 3] + [4, 5, 6]);`?",
+    "options": ["'123456'", "[1,2,3,4,5,6]", "Error", "'1,2,34,5,6'"],
+    "correctAnswer": ["'123456'"]
+  },
+  {
+    "question": "Which of the following is true about `null` in JavaScript?",
+    "options": ["It is an object", "It is a keyword", "It is a data type", "It is a function"],
+    "correctAnswer": ["It is an object"]
+  },
+  {
+    "question": "What will the following code output: `console.log(0.1 + 0.2 === 0.3);`?",
+    "options": ["true", "false", "undefined", "Error"],
+    "correctAnswer": ["false"]
+  },
+  {
+    "question": "How can you clone an object in JavaScript without referencing the original?",
+    "options": ["Object.assign({}, obj)", "JSON.stringify(obj)", "obj.copy()", "obj.slice()"],
+    "correctAnswer": ["Object.assign({}, obj)"]
+  },
+  {
+    "question": "What does the `bind` method do in JavaScript?",
+    "options": [
+      "It permanently changes the value of `this` in a function",
+      "It creates a new function with a specified `this` value",
+      "It executes a function immediately with a given `this` value",
+      "It links two functions together"
+    ],
+    "correctAnswer": ["It creates a new function with a specified `this` value"]
+  },
+  {
+    "question": "What is the output of the following code: `console.log([] == ![])`?",
+    "options": ["true", "false", "undefined", "Error"],
+    "correctAnswer": ["true"]
+  },
+  {
+    "question": "Which of the following methods will NOT modify the original array?",
+    "options": ["map", "splice", "push", "pop"],
+    "correctAnswer": ["map"]
+  },
+  {
+    "question": "What is the purpose of the `Set` object in JavaScript?",
+    "options": [
+      "To store unique values of any type",
+      "To store key-value pairs",
+      "To provide faster access to properties",
+      "To sort values in an array"
+    ],
+    "correctAnswer": ["To store unique values of any type"]
+  },
+  {
+    "question": "Which of these operators has the highest precedence in JavaScript?",
+    "options": ["++ (increment)", "|| (logical OR)", "== (equality)", "&& (logical AND)"],
+    "correctAnswer": ["++ (increment)"]
+  },
+  {
+    "question": "What will `console.log(typeof null)` output?",
+    "options": ["'object'", "'null'", "'undefined'", "'boolean'"],
+    "correctAnswer": ["'object'"]
+  },
+  {
+    "question": "Which of the following is a characteristic of closures in JavaScript?",
+    "options": [
+      "They store references to variables in their outer scope",
+      "They copy values of variables from their outer scope",
+      "They execute only once",
+      "They can only access global variables"
+    ],
+    "correctAnswer": ["They store references to variables in their outer scope"]
+  },
+  {
+    "question": "Which of these is true about arrow functions in JavaScript?",
+    "options": [
+      "They bind `this` lexically",
+      "They create their own `this` context",
+      "They can be used as constructors",
+      "They have a prototype property"
+    ],
+    "correctAnswer": ["They bind `this` lexically"]
+  },
+  {
+    "question": "What is the output of the following code: `console.log(typeof [1, 2, 3])`?",
+    "options": ["'array'", "'object'", "'undefined'", "'list'"],
+    "correctAnswer": ["'object'"]
+  },
+  {
+    "question": "What will `console.log(10 + '5');` output?",
+    "options": ["15", "'15'", "'105'", "NaN"],
+    "correctAnswer": ["'105'"]
+  },
+  {
+    "question": "How can you determine if a property exists directly on an object and not on its prototype?",
+    "options": [
+      "obj.hasOwnProperty('prop')",
+      "'prop' in obj",
+      "obj.keys.includes('prop')",
+      "Object.prototype.hasProperty(obj, 'prop')"
+    ],
+    "correctAnswer": ["obj.hasOwnProperty('prop')"]
+  },
+  {
+    "question": "What is `typeof []`?",
+    "options": ["'object'", "'array'", "'null'", "'undefined'"],
+    "correctAnswer": ["'object'"]
+  },
+  {
+    "question": "Result of `1 + '2'`?",
+    "options": ["'12'", "3", "'3'", "NaN"],
+    "correctAnswer": ["'12'"]
+  },
+  {
+    "question": "What does `!![]` return?",
+    "options": ["true", "false", "undefined", "NaN"],
+    "correctAnswer": ["true"]
+  },
+  {
+    "question": "What is `null == undefined`?",
+    "options": ["true", "false", "NaN", "Error"],
+    "correctAnswer": ["true"]
+  },
+  {
+    "question": "What is `2 ** 3`?",
+    "options": ["6", "8", "9", "4"],
+    "correctAnswer": ["8"]
+  },
+  {
+    "question": "What is `typeof NaN`?",
+    "options": ["'number'", "'NaN'", "'object'", "'undefined'"],
+    "correctAnswer": ["'number'"]
+  },
+  {
+    "question": "Result of `[1, 2] + [3, 4]`?",
+    "options": ["'1,23,4'", "'12,34'", "Error", "[1, 2, 3, 4]"],
+    "correctAnswer": ["'1,23,4'"]
+  },
+  {
+    "question": "`0 || 1` evaluates to?",
+    "options": ["0", "1", "undefined", "true"],
+    "correctAnswer": ["1"]
+  },
+  {
+    "question": "`true && false` evaluates to?",
+    "options": ["true", "false", "undefined", "NaN"],
+    "correctAnswer": ["false"]
+  },
+  {
+    "question": "Output of `typeof function() {}`?",
+    "options": ["'object'", "'function'", "'undefined'", "'null'"],
+    "correctAnswer": ["'function'"]
+  },
+  {
+    "question": "What is `!!0`?",
+    "options": ["true", "false", "0", "undefined"],
+    "correctAnswer": ["false"]
+  },
+  {
+    "question": "What does `[2, 3].pop()` return?",
+    "options": ["2", "3", "undefined", "[2]"],
+    "correctAnswer": ["3"]
+  },
+  {
+    "question": "What is `typeof Infinity`?",
+    "options": ["'number'", "'infinity'", "'undefined'", "'object'"],
+    "correctAnswer": ["'number'"]
+  },
+  {
+    "question": "What does `[] == ![]` return?",
+    "options": ["true", "false", "undefined", "NaN"],
+    "correctAnswer": ["true"]
+  },
+  {
+    "question": "What is `null || 'default'`?",
+    "options": ["null", "'default'", "undefined", "Error"],
+    "correctAnswer": ["'default'"]
+  },
+  {
+    "question": "Result of `'5' - 2`?",
+    "options": ["3", "'3'", "NaN", "'52'"],
+    "correctAnswer": ["3"]
+  },
+  {
+    "question": "What is `typeof undefined`?",
+    "options": ["'undefined'", "'null'", "'object'", "'unknown'"],
+    "correctAnswer": ["'undefined'"]
+  },
+  {
+    "question": "What does `new Set([1, 2, 2]).size` return?",
+    "options": ["2", "3", "1", "undefined"],
+    "correctAnswer": ["2"]
+  },
+  {
+    "question": "What does `isNaN('5')` return?",
+    "options": ["true", "false", "NaN", "Error"],
+    "correctAnswer": ["false"]
+  },
+  {
+    "question": "Output of `typeof null`?",
+    "options": ["'object'", "'null'", "'undefined'", "'boolean'"],
+    "correctAnswer": ["'object'"]
+  },
+  {
+    "question": "`typeof null` is?",
+    "options": ["'object'", "'null'", "'undefined'", "'boolean'"],
+    "correctAnswer": ["'object'"]
+  },
+  {
+    "question": "`!!''` returns?",
+    "options": ["true", "false", "undefined", "NaN"],
+    "correctAnswer": ["false"]
+  },
+  {
+    "question": "`5 && null` evaluates to?",
+    "options": ["5", "null", "true", "false"],
+    "correctAnswer": ["null"]
+  },
+  {
+    "question": "`3 > 2 > 1` is?",
+    "options": ["true", "false", "undefined", "NaN"],
+    "correctAnswer": ["false"]
+  },
+  {
+    "question": "`[] == 0` returns?",
+    "options": ["true", "false", "undefined", "Error"],
+    "correctAnswer": ["true"]
+  },
+  {
+    "question": "`+'10'` evaluates to?",
+    "options": ["10", "'10'", "NaN", "undefined"],
+    "correctAnswer": ["10"]
+  },
+  {
+    "question": "`1 + true` returns?",
+    "options": ["2", "true", "'1true'", "NaN"],
+    "correctAnswer": ["2"]
+  },
+  {
+    "question": "`[1] + [2]` returns?",
+    "options": ["'12'", "[1, 2]", "'1,2'", "NaN"],
+    "correctAnswer": ["'12'"]
+  },
+  {
+    "question": "`!!0` evaluates to?",
+    "options": ["true", "false", "NaN", "undefined"],
+    "correctAnswer": ["false"]
+  },
+  {
+    "question": "`typeof NaN` is?",
+    "options": ["'number'", "'NaN'", "'undefined'", "'object'"],
+    "correctAnswer": ["'number'"]
+  },
+  {
+    "question": "`typeof []` is?",
+    "options": ["'object'", "'array'", "'undefined'", "'null'"],
+    "correctAnswer": ["'object'"]
+  },
+  {
+    "question": "`'5' - '2'` returns?",
+    "options": ["3", "'3'", "NaN", "'52'"],
+    "correctAnswer": ["3"]
+  },
+  {
+    "question": "`1 || false` returns?",
+    "options": ["1", "false", "true", "undefined"],
+    "correctAnswer": ["1"]
+  },
+  {
+    "question": "`typeof (() => {})` is?",
+    "options": ["'function'", "'object'", "'arrow'", "'undefined'"],
+    "correctAnswer": ["'function'"]
+  },
+  {
+    "question": "`!true + 1` evaluates to?",
+    "options": ["1", "0", "NaN", "false"],
+    "correctAnswer": ["1"]
+  },
+  {
+    "question": "`typeof true` is?",
+    "options": ["'boolean'", "'object'", "'undefined'", "'number'"],
+    "correctAnswer": ["'boolean'"]
+  },
+  {
+    "question": "`!!NaN` evaluates to?",
+    "options": ["true", "false", "undefined", "Error"],
+    "correctAnswer": ["false"]
+  },
+  {
+    "question": "`undefined + 1` returns?",
+    "options": ["NaN", "1", "undefined", "Error"],
+    "correctAnswer": ["NaN"]
+  },
+  {
+    "question": "`'5' * '2'` is?",
+    "options": ["10", "'52'", "NaN", "'10'"],
+    "correctAnswer": ["10"]
+  },
+  {
+    "question": "`[1] == 1` evaluates to?",
+    "options": ["true", "false", "undefined", "NaN"],
+    "correctAnswer": ["true"]
+  },
+  {
+    "question": "`'0' || 5` returns?",
+    "options": ["'0'", "5", "undefined", "Error"],
+    "correctAnswer": ["'0'"]
+  },
+  {
+    "question": "`typeof Infinity` is?",
+    "options": ["'number'", "'infinity'", "'object'", "'undefined'"],
+    "correctAnswer": ["'number'"]
+  },
+  {
+    "question": "`1 / 0` returns?",
+    "options": ["Infinity", "NaN", "Error", "undefined"],
+    "correctAnswer": ["Infinity"]
+  },
+  {
+    "question": "`'hello' > 'Hello'` evaluates to?",
+    "options": ["true", "false", "undefined", "NaN"],
+    "correctAnswer": ["true"]
+  },
+  {
+    "question": "`null >= 0` is?",
+    "options": ["true", "false", "NaN", "undefined"],
+    "correctAnswer": ["true"]
+  },
+  {
+    "question": "`typeof [] === 'array'` evaluates to?",
+    "options": ["true", "false", "undefined", "Error"],
+    "correctAnswer": ["false"]
+  },
+  {
+    "question": "`1 + '1' - 1` is?",
+    "options": ["10", "'11'", "0", "NaN"],
+    "correctAnswer": ["10"]
+  },
+  {
+    "question": "`typeof 0.1 + 0.2` is?",
+    "options": ["'number'", "'string'", "'undefined'", "'object'"],
+    "correctAnswer": ["'number'"]
+  },
+  {
+    "question": "`null + 1` returns?",
+    "options": ["1", "null", "NaN", "undefined"],
+    "correctAnswer": ["1"]
+  },
+  {
+    "question": "`[1, 2] == '1,2'` evaluates to?",
+    "options": ["true", "false", "undefined", "Error"],
+    "correctAnswer": ["true"]
+  },
+  {
+    "question": "`typeof undefined` is?",
+    "options": ["'undefined'", "'null'", "'object'", "'boolean'"],
+    "correctAnswer": ["'undefined'"]
+  },
+  {
+    "question": "`!!0 + 1` evaluates to?",
+    "options": ["1", "0", "true", "false"],
+    "correctAnswer": ["1"]
+  },
+  {
+    "question": "`typeof (null || 1)` is?",
+    "options": ["'number'", "'object'", "'undefined'", "'boolean'"],
+    "correctAnswer": ["'number'"]
+  },
+  {
+    "question": "`'abc'.slice(0, 1)` returns?",
+    "options": ["'a'", "'ab'", "'c'", "undefined"],
+    "correctAnswer": ["'a'"]
+  },
+  {
+    "question": "`[1, 2, 3].pop()` returns?",
+    "options": ["3", "[1, 2]", "undefined", "Error"],
+    "correctAnswer": ["3"]
+  }
+]
